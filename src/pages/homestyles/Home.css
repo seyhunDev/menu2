@@ -1,0 +1,49 @@
+
+
+.main-container {
+    display: flex;
+    justify-content: center; /* Sayfada ortalanmasını sağlar */
+    margin-top: 120px;
+    flex-wrap: wrap;
+  }
+  
+  .sub-container {
+    width: 200px;
+    width: 200px;
+    margin: 0 5px; /* Kenarlarda boşluk bırakır */
+    padding: 10px; /* İçerikten kenara boşluk bırakır */
+    border-radius: 5px; /* Kenarları yuvarlatır */
+    transition: background-color 0.3s; /* Renk değişimine geçiş efekti ekler */
+  }
+  
+  .sub-container:hover {
+    background-color: rgb(225, 222, 222); /* Üzerine gelindiğinde arkaplan rengini değiştirir */
+  }
+  
+  .sub-container img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+  }
+  
+  body{
+    background-color: white;
+  }
+  
+  .sub-container h2 {
+    text-align: center;
+    color: rgb(69, 103, 92);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+  }
+
+  .link {
+    text-decoration: none;
+  }
+
+  .sub-container:hover h2 {
+    color: rgb(58, 114, 36); /* Üzerine gelindiğinde arkaplan rengini değiştirir */
+   
+  }
+
+  

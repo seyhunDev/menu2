@@ -1,0 +1,56 @@
+.navbar {
+    background-color: black;
+    width: 100%;
+    height: 110px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+  }
+  
+  .navbar-logo {
+    float: left;
+    width: 170px;
+    height: 100px;
+    margin-left: 20px;
+    margin-top: 2px;
+    line-height: 50px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .navbar-links {
+    float: right;
+    margin-right: 40px;
+    margin-top: 30px;
+    line-height: 50px;
+    
+  }
+  
+  .navbar-links a {
+    color: white;
+    text-decoration: none;
+    margin-left: 15px;
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+  }
+  
+  .navbar-links a:hover {
+    color: gray;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  .navbar-links a {
+    animation: fadeIn 1s ease-in-out;
+  }
+  
